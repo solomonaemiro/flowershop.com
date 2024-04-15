@@ -1,0 +1,161 @@
+
+*{
+    font-family: roboto, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    gap: 16px;
+    margin-right: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.logo{
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#img1{
+    width: 400px;
+    height: 200px;  
+}
+
+main{
+    display: flex;
+    background: #1f2937;
+    padding-bottom: 20px;
+    padding-left: 48px;
+    padding-top: 20px;
+    justify-content: space-between;
+    
+}
+
+article{
+    flex: 40%;
+    padding-right: 16px;
+    margin-right: 48px;
+    line-height: 25px;
+
+}
+
+aside{
+    flex: 40%;
+    padding-bottom: 8px;
+    padding-top: 48px;
+}
+
+.head{
+    background-color: #1f2937;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.header{
+    padding-top: 16px;
+}
+
+.button{
+    background-color: #3882f6;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+.images{
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+.title{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+.flowers{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.text{
+    color: black;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.quote{
+    color: #1f2937;
+    font-size: 16px;
+    font-style: italic;
+    background-color: #e5e7eb;
+    box-sizing: border-box;
+    height: 200px;
+    padding: 80px 80px;
+    margin-top: 32px;
+}
+
+#author{
+    font-weight: bold;
+    margin-left: 50rem;
+}
+
+.action{
+    color: #ffffff;
+    background-color: #3882f6;
+    margin: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    gap: 48px;
+   
+}
+
+.button2{
+    color: #ffffff;
+    background-color: #3882f6;
+    font-weight: bold;
+    margin-left: 100px;
+    padding: 12px 12px;
+    margin-bottom: 20px;
+    margin-right: 8px;
+}
+
+.confirm{
+   margin-right: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 20px 20px;
+}
+
